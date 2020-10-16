@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "Skills"
+title = "Things I can do"
 subtitle = ""
 
 # Showcase personal skills or business features.
@@ -15,22 +15,40 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  icon = "anchor"
+  icon_pack = "fas"
+  name = "Field sampling"
+  description = "More than 10 oceanographic cruises"
+
+  [[feature]]
+  icon = "bacteria"
+  icon_pack = "fas"
+  name = "Culturing"
+  description = "Basic knowledge on prokaryotic culturing"
+
+  [[feature]]
+  icon = "dna"
+  icon_pack = "fas"
+  name = "Sequencing"
+  description = "Experience on Illumina-based metabarcoding and metagenomic sequencing"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "100%"  
-  
+  description = "Statistical analysis for microbial ecology"  
+
 [[feature]]
-  icon = "camera-retro"
+  icon = "viruses"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Metaviromics"
+  description = "Reconstruction and analysis of prokaryotic viral genomes"  
+
+[[feature]]
+  icon = "microscope"
+  icon_pack = "fas"
+  name = "Microscopy"
+  description = "Experience with light, epifluorescence and scanning electron microscopy"
 
 # Uncomment to use emoji icons.
 # [[feature]]
